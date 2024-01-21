@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}   
+header{
+   background-color:rgb(208, 123, 20); 
+   height: 100vh;
+   width: 300px;
+   float: left;
+}
+header ul{
+   position:absolute;
+   left:5vw;
+   top:100px;
+   line-height: 50px;
+}
+
+h1{
+    position:absolute;
+    left:5vw;
+    top:30vh;
+    line-height: 80px;    
+}
+p{
+    color:rgb(165, 134, 42);
+    position:relative;
+    left:50PX;
+    top:0px;
+}
+header li{
+    margin-right: 4vw;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
